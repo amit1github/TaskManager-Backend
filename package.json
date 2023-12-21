@@ -2,10 +2,10 @@
   "name": "backend-for-task-manager",
   "version": "1.0.0",
   "description": "This is the backend part of the TaskManager project, a simple Todo application built with Node.js/Express connected to MongoDB.",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
