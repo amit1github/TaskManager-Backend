@@ -1,11 +1,15 @@
 {
-  "name": "server",
+  "name": "backend-for-task-manager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This is the backend part of the TaskManager project, a simple Todo application built with Node.js/Express connected to MongoDB.",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amit1github/TaskManager-Backend.git"
   },
   "keywords": [
     "node",
@@ -17,6 +21,10 @@
   ],
   "author": "amit-kr-yadav",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amit1github/TaskManager-Backend/issues"
+  },
+  "homepage": "https://github.com/amit1github/TaskManager-Backend#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
     "chalk": "^5.3.0",
